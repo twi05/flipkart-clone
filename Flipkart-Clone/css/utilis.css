@@ -1,0 +1,21 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: var(--main-bg-color);
+}
+
+.my1 {
+    margin: -2px 0px;
+}
+
+.my2 {
+    margin: 8px 0px;
+}
+
+.textcenter {
+    text-align: center;
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo img {
+    height: 25px;
+    width: 100px;
+    margin: 0px 23px 0px 50px;
+    /* transform: translateX(50px); */
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-weight: bolder;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    padding: 0px 5px;
+    height: 20px;
+    width: 25vw;
+    border-radius: 3px;
+}
+
+.button {
+    border-radius: 3px;
+    margin: 0px 2px 0px 15px;
+}
+
+.search .button {
+    height: 20px;
+    padding: 0px 3px;
+    border: 2px solid white;
+    margin: 0px 2px 0px 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.search .button:hover {
+    color: white;
+    font-weight: 1000;
+}
+
+.container {
+    min-height: calc(100vh - 12vh - 60px);
+}
+
+.slider img {
+    margin: 0px 0;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.slider {
+    margin: 0px 0;
+    width: 98.5vw;
+    height: 57vh;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 90vw;
+    background-color: #d3e0f5;
+    margin: 37px auto;
+    overflow: scroll;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carditem {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 45px;
+}
+
+.carditem:hover {
+    height: 200px;
+    width: 200px;
+    font-weight: bolder;
+}
+
+.cards {
+    display: flex;
+}
+
+
+/* .carditems {
+    margin
+} */
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Montserrat', sans-serif;
+}
